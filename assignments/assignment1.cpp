@@ -6,38 +6,38 @@ int main(){
     // declaring..
     int menu;
     // menu for the game..
-    std :: cout << "WELCOME TO THE GAME!" << '/n';
+    std :: cout << "WELCOME TO THE GAME!" << '\n';
 
     switch (menu)
     {
     case 1:
-        std :: cout << "1. play game";
-        break;
+        std :: cout << "1. play game" << '\n';
+        break; 
 
     case 2:
-        std :: cout << "2. show rules";
+        std :: cout << "2. show rules" << '\n';
         break;
 
     case 3:
-        std :: cout << "3. exit";
+        std :: cout << "3. exit" << '\n';
         break;    
     default:
         break;
     }
 
     void display_rules(){
-        std :: cout << "nothing"
+        std :: cout << "nothing" << '\n'; 
     }
 
     int getcomputerinput(){
-        std :: cout << "nothing"       
+        std :: cout << "nothing" << '\n';     
     }
     int userinput(){
-        std :: cout << "nothing"       
+        std :: cout << "nothing" << '\n';       
     }
 
     bool playagain(){
-        std :: cout << "nothing"
+        std :: cout << "nothing" << '\n';
     }
 
     // 2 loops are required here.. one on keep playing till someone loses..
