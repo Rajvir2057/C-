@@ -1,0 +1,56 @@
+Start game.
+Player has : $500
+Dealer got Nine &  * , sum is 19
+Player got Queen & Jack, sum is 20
+- User hits.
+New sum will be: 24
+Bust.Player lost...
+player has : $100
+End log.
+--------
+Start game.
+Player has : $100
+Dealer got Eight &  * , sum is 13
+Player got Ace & Nine, sum is 20
+- User stands.
+User's sum wont change. User still has: 20
+- Dealer hits.
+The new sum of the dealer will be : 22
+The house has bust. Player wins...
+player has : $400
+End log.
+--------
+Start game.
+Player has : $400
+Dealer got Eight &  * , sum is 18
+Player got Jack & Ace, sum is 21
+- User hits.
+New sum will be: 31
+Bust.Its a tie...
+player has : $400
+End log.
+--------
+Start game.
+Player has : $400
+Dealer got Ten &  * , sum is 20
+Player got Three & Ten, sum is 13
+- User stands.
+User's sum wont change. User still has: 13
+- Dealer hits.
+The new sum of the dealer will be : 22
+The house has bust. Player wins...
+player has : $800
+End log.
+--------
+Start game.
+Player has : $800
+Dealer got Nine &  * , sum is 19
+Player got Ace & Six, sum is 17
+- User stands.
+User's sum wont change. User still has: 17
+- Dealer hits.
+The new sum of the dealer will be : 29
+The house has bust. Player wins...
+player has : $850
+End log.
+--------
