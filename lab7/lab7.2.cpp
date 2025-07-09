@@ -37,7 +37,59 @@ int main(){
     for(int fruit2 = 0 ; fruit2 < words.size();fruit2++ ){
         if(words[fruit2] == "banana"){
             words.erase(words.begin() +fruit2);
+    #include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+
+int main(){
+
+    //vectors of strings..
+    std :: vector<std ::string> words = {"apple","banana","cherry","date"};
+
+    //adding elderberry..
+    words.push_back("elderberry");
+
+    for(std ::string word : words){
+        std :: cout<< word << " ";
+    }
+    std :: cout << '\n';                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+    //sorting the words in alphabetical order,,
+    sort(words.begin(),words.end());
+
+    std :: cout << "Sorted words: ";
+    for(int i=0; i < words.size();i++){
+        std :: cout << words[i] << " ";
+    }
+
+
+    //searching for cherry and printing its index..
+    std :: cout << '\n';
+    for(int fruit = 0 ; fruit < words.size();fruit++ ){
+        if(words[fruit] == "cherry"){
+            std :: cout << "CHERRY INDEX IS : " << fruit;
+        }
+    }
+
+    //removing banana and printing the list back..
+        std :: cout << '\n';
+    for(int fruit2 = 0 ; fruit2 < words.size();fruit2++ ){
+        if(words[fruit2] == "banana"){
+            words.erase(words.begin() +1);
             break;
+        }
+    }
+
+    //printing the whole thing again...
+    std :: cout <<"Words after removing banana. ";
+
+    for(std :: string updated :words){
+        std :: cout << words[updated];
+    }
+
+    return 0;
+
+       break;
         }
     }
 
